@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;	
+}
+
+body {
+	font-family: 'Lora', serif;
+	cursor: s-resize;
+}
+
+h1, blockquote, .conpane {
+	text-align: center;
+	color: #444444;
+	text-transform: uppercase;
+	letter-spacing: 1%;
+	padding: 25% 0;
+}
+
+.btn-success {
+  background: #34d95a;
+  background-image: -webkit-linear-gradient(top, #34d95a, #63b82b);
+  background-image: -moz-linear-gradient(top, #34d95a, #63b82b);
+  background-image: -ms-linear-gradient(top, #34d95a, #63b82b);
+  background-image: -o-linear-gradient(top, #34d95a, #63b82b);
+  background-image: linear-gradient(to bottom, #34d95a, #63b82b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;  
+  color: #ffffff;  
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-success:hover {
+  background: #6df766;
+  background-image: -webkit-linear-gradient(top, #6df766, #2be641);
+  background-image: -moz-linear-gradient(top, #6df766, #2be641);
+  background-image: -ms-linear-gradient(top, #6df766, #2be641);
+  background-image: -o-linear-gradient(top, #6df766, #2be641);
+  background-image: linear-gradient(to bottom, #6df766, #2be641);
+  text-decoration: none;
+}
+
+.ynum, .ynum h1 {
+    font-family: 'Kumar One', cursive;
+    color: white;   
+
+}
+
+.ynum {
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 275%;
+	color: #E5E5E5;
+	text-transform: uppercase;
+	letter-spacing: 1%;
+}
+
+/* parallax */
+
+.parallax {
+	background: url("../images/fireworks-1530865-640x480.jpg") repeat fixed 100%;
+	background-size: 100% 100%;
+}
+.parallax-inner {
+	padding-top: 184px;
+	padding-bottom: 184px;
+}

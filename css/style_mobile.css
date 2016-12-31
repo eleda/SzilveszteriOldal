@@ -1,0 +1,11 @@
+h1, blockquote, .conpane {
+	font-size: 200%;
+}
+
+.btn-lg {
+	font-size: 100%;
+}
+
+.ynum, .ynum h1 {
+	font-size: 250%;
+}
